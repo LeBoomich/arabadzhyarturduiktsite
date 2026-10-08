@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна Робота 2 — Арабаджи Артур</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f8fcf9;
+        }
+
+        /* Навігаційне меню сайту */
+        .navbar {
+            display: flex;
+            gap: 10px;
+            background-color: #1e3a2b;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 8px 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #27ae60;
+        }
+
+        .navbar a.active {
+            background-color: #27ae60;
+        }
+
+        /* Оформлення вмісту лабораторної роботи */
+        main {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #1e3a2b;
+            border-bottom: 3px solid #27ae60;
+            padding-bottom: 10px;
+            font-size: 26px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #27ae60;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #1e3a2b;
+            font-size: 16px;
+        }
+
+        section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        /* Обмеження розміру лише для логотипа кафедри */
+        .kaf-logo {
+            max-width: 180px; 
+        }
+
+        figure {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        a {
+            color: #27ae60;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Меню перемикання між сторінками -->
+    <nav class="navbar">
+        <a href="index.html.html">Головна</a>
+        <a href="lab2.html" class="active">Лабораторна Робота 2</a>
+        <a href="lab3.html">Лабораторна Робота 3</a>
+    </nav>
+
+    <!-- Основний вміст лабораторної роботи №2 -->
+    <main>
+        <h1>Державний університет інформаційно-комунікаційних технологій</h1>
+
+        <!-- Перша секція -->
+        <section>
+            <h2>Кафедра ІСТ</h2>
+            
+            <!-- TODO: Додати посилання до кафедри -->
+            
+            <p>Більше інформації про <a target="_blank" href="https://duikt.edu.ua">університет</a></p>
+
+            <a target="_blank" href="https://duikt.edu.ua/ua/180-zagalna-informaciya-kafedra-inzhenerii-programnogo-zabezpechennya-avtomatizovanih-sistem">
+                <img src="https://duikt.edu.ua/uploads/p_180_77175281.jpg" alt="Логотип кафедри ІСТ" class="kaf-logo">
+            </a>
+        </section>
+<!-- Друга секція -->
+        <section>
+            <h2>Група ІСД-11</h2>
+            <h3>Корисні посилання:</h3>
+
+            <ul>
+                <li><a target="_blank" href="http://e-rozklad.dut.edu.ua">Розклад занять</a></li>
+                <li><a target="_blank" href="https://dn.dut.edu.ua">Система дистанційного навчання moodle</a></li>
+                <li><a target="_blank" href="https://duikt.edu.ua/ua/news/1/category/570">Новини та події</a></li>
+            </ul>
+
+            <figure>
+                <img src="https://duikt.edu.ua/uploads/n_15805_99279911.jpg" alt="Фото ДУІКТ">
+            </figure>
+        </section>
+    </main>
+
+</body>
+</html>

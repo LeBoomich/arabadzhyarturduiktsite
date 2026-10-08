@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна — Вебсайт Арабаджи Артура</title>
+    
+    <!-- Підключення гармонійних шрифтів: Montserrat та Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f8fcf9;
+        }
+
+        /* Навігаційне меню */
+        .navbar {
+            display: flex;
+            gap: 10px;
+            background-color: #1e3a2b;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 8px 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #27ae60;
+        }
+
+        .navbar a.active {
+            background-color: #27ae60;
+        }
+
+        /* Заголовки */
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #1e3a2b;
+            border-bottom: 3px solid #27ae60; /* Зелена лінія */
+            padding-bottom: 12px;
+            font-size: 28px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #27ae60;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        /* Інформаційна картка */
+        .info-card {
+            background-color: #ffffff;
+            border-left: 4px solid #27ae60;
+            padding: 15px 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .nav-text {
+            margin-top: 30px;
+            font-weight: 500;
+        }
+
+        /* Зелена кнопка */
+        .btn {
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            background-color: #27ae60;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #219150;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навігаційне меню -->
+    <nav class="navbar">
+        <a href="index.html.html" class="active">Головна</a>
+        <a href="lab2.html">Лабораторна Робота 2</a>
+        <a href="lab3.html">Лабораторна Робота 3</a>
+    </nav>
+
+    <header>
+        <h1>Вітаю на вебсайті Арабаджи Артура!</h1>
+    </header>
+
+    <main>
+        <p>На цьому сайті я буду виконувати завдання університету ДУІКТ по курсу ОІТ.</p>
+
+        <div class="info-card">
+            <h2>Додаткова інформація</h2>
+            <ul>
+                <li><strong>Навчальний заклад:</strong> Державний университет інформаційно-комунікаційних технологій (ДУІКТ)</li>
+                <li><strong>Дисципліна:</strong> Основи інформаційних технологій (ОІТ)</li>
+                <li><strong>Мета проєкту:</strong> Практичне освоєння вебтехнологій, верстки та створення власних вебсторінок</li>
+            </ul>
+        </div>
+
+        <p class="nav-text">Також ви можете в будь-який момент повернутися на головну сторінку Google</p>
+
+        <a href="https://google.com" class="btn" target="_blank">Перейти в Google</a>
+    </main>
+</body>
+</html>
